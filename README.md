@@ -7,7 +7,6 @@ docker pull afni/afni_make_build:AFNI_22.2.05<br>
 docker build -t afni/afni_skullstrip:v1 .
 docker run \
     --rm \
-    -ti
     -v $input_folder:/home/Develop/input:ro \
     -v $output_folder:/home/Develop/skullstrip:rw \
     --user $(id -u):$(id -g) \
