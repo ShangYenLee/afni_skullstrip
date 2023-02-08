@@ -1,6 +1,8 @@
 ## 3dSkullStrip
 skullstrip all `*.nii` `*.nii.gz` files under $input_folder<br>
-`bash skullstrip.sh $input_folder`
+`bash skullstrip.sh $input_folder`<br>
+> **Warning**
+> All files/folders under `$input_folder` shouldn't contain space 
 ## Working on docker container
 ```
 docker pull afni/afni_make_build:AFNI_22.2.05
