@@ -8,5 +8,5 @@ docker run \
 -v $sorce:/home/Develop/$sorce_folder:ro \
 -v "$out_dir":/home/Develop/skullstrip:rw \
 --user $(id -u):$(id -g) \
-afni/afni_test:v2 \
+afni/afni_skullstrip:v1 \
 bash ./skullstrip_t1cet2.sh .$sorce_folder
